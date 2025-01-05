@@ -21,7 +21,7 @@ int main()
 	int x;
 	int y;
 	int sum;
-	int product; //добуток
+	int product; 
 	cin >> x >> y;
 	sum = SumOfTwo(x, y);
 	product = ProductOfTwo(x, y);
@@ -30,9 +30,9 @@ int main()
 	cout << "And the product is: " << product << endl;
 
 	/*
-	cout << Is there a bug here?" - початковий вигляд рядка з помилкою
-	1 - перед початком речення не вистачало лапок "
-	2 - не вистачало в кінці крапки з комою ;
+	cout << Is there a bug here?" - row with mistakes from the question
+	1 - the symbol of " missing before the start of the sentence
+	2 - missing symbol ; in the end of the row
 	*/
 	cout << " Is there a bug here ? ";
 
